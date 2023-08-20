@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./styles.css";
 
+// A component with same name & first letter capital
 export function Age(props){
 
     const[age, setAge] = useState(24);

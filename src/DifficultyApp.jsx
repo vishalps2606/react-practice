@@ -1,6 +1,7 @@
 import './styles.css'
 import { useState } from 'react';
 
+// A component with same name & first letter capital
 export function DifficutyApp(props){
 
     const[diff, setDiff] = useState("No Difficulty Set!");
