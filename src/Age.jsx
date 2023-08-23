@@ -13,7 +13,7 @@ export function Age(props){
 
     return (
         <>
-            <button className="button" onClick = {increaseAge} >Increase Age</button>
+            <button className="btn btn-primary button" onClick = {increaseAge} >Increase Age</button>
             <h3 className="display" >Current Age : {age}</h3>
         </>
     );
