@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./styles.css";
 
+// A component with same name & first letter capital
 export function Age(props){
 
     const[age, setAge] = useState(24);
@@ -12,7 +13,7 @@ export function Age(props){
 
     return (
         <>
-            <button className="button" onClick = {increaseAge} >Increase Age</button>
+            <button className="btn btn-primary button" onClick = {increaseAge} >Increase Age</button>
             <h3 className="display" >Current Age : {age}</h3>
         </>
     );
